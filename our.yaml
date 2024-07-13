@@ -1,0 +1,65 @@
+Cora:
+  learning_rate: 0.00001
+  drop_embedding: 0.4
+  drop_edge_rate_1: 0.2
+  drop_edge_rate_2: 0.2
+  drop_feature_rate_1: 0.2
+  drop_feature_rate_2: 0.2
+  tau: 0.4
+  num_epochs: 10000
+  weight_decay: 0.0005
+  drop_scheme: 'degree'
+CiteSeer:
+  learning_rate: 0.000005
+  drop_embedding: 0.4
+  drop_edge_rate_1: 0.3
+  drop_edge_rate_2: 0.2
+  drop_feature_rate_1: 0.3
+  drop_feature_rate_2: 0.2
+  tau: 0.8
+  num_epochs: 10000
+  weight_decay: 0.000001
+  drop_scheme: 'degree'
+PubMed:
+  learning_rate: 0.00005
+  drop_embedding: 0.4
+  drop_edge_rate_1: 0.5
+  drop_edge_rate_2: 0.4
+  drop_feature_rate_1: 0.3
+  drop_feature_rate_2: 0.5
+  tau: 0.4
+  num_epochs: 10000
+  weight_decay: 0.00001
+  drop_scheme: 'degree'
+Coauthor-CS:
+   learning_rate: 0.00005
+   drop_embedding: 0.3
+   drop_edge_rate_1: 0.3
+   drop_edge_rate_2: 0.2
+   drop_feature_rate_1: 0.3
+   drop_feature_rate_2: 0.4
+   tau: 0.4
+   num_epochs: 10000
+   weight_decay: 0.00001
+   drop_scheme: 'degree'
+Amazon-Computers:
+   learning_rate: 0.0001
+   drop_edge_rate_1: 0.7
+   drop_edge_rate_2: 0.2
+   drop_feature_rate_1: 0.2
+   drop_feature_rate_2: 0.2
+   tau: 0.3
+   num_epochs: 10000
+   weight_decay: 0.00001
+   drop_scheme: 'degree'
+Amazon-Photo:
+   learning_rate: 0.0001
+   drop_embedding: 0.10
+   drop_edge_rate_1: 0.3
+   drop_edge_rate_2: 0.4
+   drop_feature_rate_1: 0.2
+   drop_feature_rate_2: 0.3
+   tau: 0.3
+   num_epochs: 10000
+   weight_decay: 0.000000
+   drop_scheme: 'degree'
